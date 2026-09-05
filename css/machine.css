@@ -1,0 +1,73 @@
+body {
+    background: #a1a1a1;
+    padding: 10vh 20%;
+    font-family: 'Caacupe One', 'Helvetica', sans-serif;
+}
+.slotMachine {
+    border-radius: 60px;
+    background: #000;
+    height: 45vh;
+    position: relative;
+}
+.slotTitle{
+    display: flex;
+    justify-content: center;
+    background: #000;
+    border-radius: 60px;
+}
+h1 {
+    color: #dfc086;
+    font-size: 44px;
+    letter-spacing: 5px;
+    font-weight:900;
+}
+h3 {
+    font-size: 36px;
+    color: #dfc086;
+    border: 2px solid #dfc086;
+    border-radius: 40px;
+}
+.topSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #f1ddb6;
+}
+.bottomSec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    border-radius: 60px;
+}
+.reels {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 2%;
+    background: #dfc086;
+    border-radius: 60px;
+    width: 15%;
+    height: 10vh;
+    margin: 1rem 0;
+}
+button{
+    font-family: 'Caacupe One', 'Helvetica', sans-serif;
+    font-size: 32px;
+    background: #dfc086;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+}
+span {
+    color: #dfc086;
+    font-size: 32px;
+}
+.bottom-sec-boxes {
+    width: 20%;
+    text-align: center;
+}
+img {
+    display: none;
+    position: absolute;
+    transform: translate(-15%, -15%);
+}

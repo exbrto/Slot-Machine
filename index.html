@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/machine.css">
+    <title>Slot Machine</title>
+</head>
+<body>
+    <section class="slotMachine">
+        <img src="/images/brokeboy.png" alt="broke-guy" id="img"></img>
+        <section class="slotTitle">
+            <h1>Play Here</h1>
+        </section>
+        <section class="topSec">
+            <section class="reels" id="realOne"></section>
+            <section class="reels" id="realTwo"></section>
+            <section class="reels" id="realThree"></section>
+        </section>
+        <section class="bottomSec">
+            <section class="money bottom-sec-boxes">
+                <span>Wallet</span>
+                <h3 id="wallet">500</h3>
+            </section>
+            <section class="functions bottom-sec-boxes">
+                <button type="button" id="smallBet">Min Bet: 5</button>
+            </section>
+            <section class="functions bottom-sec-boxes">
+                <button type="button" id="bigBet">Max Bet: 50</button>
+            </section>
+            <section class="win-or-loss bottom-sec-boxes">
+                <span>👇</span>
+                <h3 id="resultMessage">Try Your Luck Out</h3>
+            </section>
+        </section>
+    </section>
+
+
+
+
+
+    <script src="/js/machine.js"></script>
+</body>
+</html>

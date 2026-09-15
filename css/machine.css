@@ -71,3 +71,25 @@ img {
     position: absolute;
     transform: translate(-15%, -15%);
 }
+@media (max-width: 480px) {
+    body {
+    padding: 5vh 0%;
+}
+    h3 {
+    font-size: 20px;
+    color: #dfc086;
+    border: 2px solid #dfc086;
+    border-radius: 40px;
+}
+    img {
+    display: none;
+    position: absolute;
+    transform: translate(1%, 2%);
+    width: 100%;
+}
+    button{
+    font-size: 30px;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+}
+}

@@ -1,24 +1,25 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine
 
-### Goal: Build a Simple Slot Machine
+A simple browser-based slot machine game built with vanilla JavaScript. 
+Spin 3 reels, place bets, and watch your balance update in real time.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![screenshot](./images/rc-slotmachine.png)
 
-### How to submit your code for review:
+## 🔗 Live Demo
+[Play it here](https://playfulslotmachine.netlify.app/)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## ✨ Features
+- 3 spinning reels with 5+ unique symbols each
+- Place a minimum or maximum bet
+- Balance updates live based on wins/losses
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## 🛠️ Built With
+- HTML, CSS, JavaScript
+
+## 🚀 Running Locally
+1. Clone the repo
+2. Open `index.html` in your browser
+
+## 📚 What I Learned
+- Working with randomization logic (reel symbol selection)
+- Managing and updating game state without a framework
